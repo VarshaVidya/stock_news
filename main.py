@@ -16,6 +16,7 @@ parameters = {
 response = requests.get(STOCK_ENDPOINT,params=parameters)
 
 print(response.json())
+# copy paste response.json to https://jsonviewer.stack.hu/
 #TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
 
 
